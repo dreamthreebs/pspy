@@ -1,0 +1,15 @@
+[project]
+name = "pspy"
+version = "0.0.1"
+description = "Point sources python code"
+authors = [{ name = "dreamthreebs", email = "wangyiming@ihep.ac.cn" }]
+license = { text = "MIT" }
+dependencies = [
+    "numpy",
+    "matplotlib",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest"
+]
